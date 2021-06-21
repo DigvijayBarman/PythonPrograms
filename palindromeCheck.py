@@ -9,13 +9,7 @@ def palindromecheck():
 
 def insertSpace():
     strn=strg
-    n= len(strn)
-    res = list(strn)
-    for i in range(1, n-1):
-        res.insert(i, ' ')
-        res = ''.join(res)
-
-    print("New string: ", str(res))
+    print(" ".join(strn))
 
 palindromecheck()
 insertSpace()
