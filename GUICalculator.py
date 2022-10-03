@@ -3,7 +3,7 @@ import tkinter.messagebox
 from tkinter.constants import SUNKEN
 
 window =tk.Tk()
-window.title('Simple Calculator- By Indus')
+window.title('Simple Calculator- By Digvijay')
 #tkinter.messagebox.showinfo("Welcome","Thank You for using this calculator!")
 frame = tk.Frame(master=window, bg="#F2EBE9", padx=15)
 frame.pack()
